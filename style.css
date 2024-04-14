@@ -1,0 +1,110 @@
+body{
+    background-color: lightgray;
+    
+}
+
+header{
+   font-size: 40px;
+   font-weight: 800;
+   text-align: center;
+   padding: 2px;
+   color: rgb(43, 43, 99);
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 560px;
+}
+
+h2{
+    position: relative;
+    top: -20px;
+    height: 0px;
+    font-size: 30px;
+}
+
+span{
+    font-weight: bold;
+    text-align: center;
+    padding: 1px;
+    width: 19px;
+    height: 19px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    border-radius: 90%;
+    cursor: pointer;
+}
+
+.input_container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px #9d9d9d;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 1rem;
+}
+
+.title_field{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#title{
+    width: 83%;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 5px;
+}
+#color{
+    width: 15%;
+    height: 36px;
+}
+
+#details{
+    height: 420px;
+    font-size: 15px;
+    padding-left: 5px;
+    font-family: sans-serif;
+}
+
+#submit{
+    height: 35px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#output_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 70%;
+    height: 100%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px #9d9d9d;
+    padding-top: 8px;
+    padding-left: 19px;
+    overflow-y: scroll;
+}
